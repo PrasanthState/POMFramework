@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" verbose="10" thread-count="3">
+	<test name="Test">
+		<classes>
+			<class name="testcases.TC003_MerLead" />
+			<class name="testcases.TC002_EditLead" />
+			<class name="testcases.TC004_DuplicateLead" />
+			<class name="testcases.TC001_CreateLead" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test1">
+		<classes>
+			<class name="testcases.TC003_MerLead1" />
+			<class name="testcases.TC002_EditLead1" />
+			<class name="testcases.TC004_DuplicateLead1" />
+			<class name="testcases.TC001_CreateLead1" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test2">
+		<classes>
+			<class name="testcases.TC003_MerLead" />
+			<class name="testcases.TC002_EditLead" />
+			<class name="testcases.TC004_DuplicateLead" />
+			<class name="testcases.TC001_CreateLead" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
